@@ -80,7 +80,7 @@ Specify each parameter using the `--set key=value[,key=value]` argument to `helm
 
 ```console
 $ helm install --name my-release \
-  --set wildflyUser=manager,wildflyPassword=password \
+  --set wildflyUsername=manager,wildflyPassword=password \
     bitnami/wildfly
 ```
 
